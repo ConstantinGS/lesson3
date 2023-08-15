@@ -46,6 +46,13 @@ public class LinkedList<T> {
 
     }
 
+
+   /**
+     * Разворот связного списка
+     */
+
+
+    
     public void reverseList() {
 
         if (head != null && head.next != null) {
